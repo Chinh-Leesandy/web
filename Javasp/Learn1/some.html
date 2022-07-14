@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>The some() Method</h2>
+    <p id="demo"></p>
+    <script>
+    const ages = [1, 2, 16, 20];
+    document.getElementById("demo").innerHTML = ages.some(checkAdult);
+    function checkAdult(age) {
+    return age >= 18;
+    }
+    </script>
+</body>
+</html>

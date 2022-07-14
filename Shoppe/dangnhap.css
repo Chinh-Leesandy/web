@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+#login{
+    margin-left: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+#login img{
+    vertical-align: bottom;
+}
+#login a{
+    text-decoration: none;
+    color: #ee4d2d;
+}
+#login_text{
+    color: #ee4d2d;
+    margin-left: 80rem;
+    font-size: 1.5rem;
+}
+div.body-part{
+    background-image: url(https://cf.shopee.vn/file/49d1f3dd41bdf3c662a6479c9a8a68d4);
+    background-size:  center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 1320px;
+    background-color: #ee4d2d;
+    position: relative;
+}
+#registration_form{
+    position: absolute;
+    top : 6.5rem;
+    margin-left: 770px;
+    background-color: white;
+    width: 410px;
+    height: 480px;
+}
+#registration_login{
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Username{
+    padding: 10px 10px;
+    width: 30rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+#Pass{
+    padding: 10px 10px;
+    width: 30rem;
+    margin-left: 4rem;
+}
+#Sub{
+    padding: 8px 8px;
+    width: 32.5rem;
+    margin-left: 4rem;
+    text-align: center;
+    background-color: #e7654b;
+    color: white;
+    font-size: 2rem;
+}
+#Pass_forget{
+    text-decoration: none;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+#Login_with_SMS{
+    text-decoration: none;
+    margin-left: 11rem;
+    color: blue;
+    font-size: 1.5rem;
+}
+#or{
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+#button{
+    margin-left: 4.5rem;
+}
+#text1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#registration_form_login{
+    text-decoration: none;
+    color: #ee4d2d;
+}

@@ -1,0 +1,9 @@
+#test-id {
+    color: aquamarine;
+    }
+    #test-id.test-class{
+        color: rebeccapurple;
+    }
+    .test-class {
+        color: blue;
+    }

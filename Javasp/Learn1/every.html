@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>The filter() Method</h2>
+    <p id="demo"></p>
+    <script>
+    const ages = [32, 33, 16, 40];
+    document.getElementById("demo").innerHTML = ages.every(checkAdult);
+    function checkAdult(age) {
+    return age >= 18;
+    }
+    </script>
+</body>
+</html>

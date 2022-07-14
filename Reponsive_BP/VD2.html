@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+        #wrapper{
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        #header,
+        #footer{
+            background-color: brown;
+            padding: 10px;
+            text-align: center;
+            color: yellow;
+        }
+        #Content{
+            background-color: antiquewhite;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media(min-width: 576px){
+            #Content{
+                flex-basis: 70%;
+            }
+        }
+        @media(min-width: 760px){
+            #header{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+        <div id="Content">
+            <h1>Content</h1>
+            <p>Hôm 6/7, Apple tiết lộ tính năng Lockdown Mode sẽ được ra mắt vào mùa thu năm nay.Chế độ này được
+                thiết kế nhằm ngăn chặn các cuộc tấn công tinh vi đến từ hacker, như phần mềm gián điệp Pegasus 
+                từng tấn công iPhone của các quan chức cấp cao của EU vào năm 2021.</p>
+            <h2>Thành phố kỳ lạ suốt nghìn năm không trồng được bất cứ cây xanh nào</h2>
+            <p> Dù có diện tích lớn nhất khu tự trị Tây Tạng nhưng đây lại là thành 
+                phố duy nhất ở Trung Quốc nơi cây xanh không tồn tại được suốt hàng 
+                nghìn năm qua.</p>
+        </div>
+        <div id="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

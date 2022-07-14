@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test reponsive breakpoint</title>
+    <style>
+        body{
+            background-color: orange;
+            display: flex;
+            height: 100vh;
+        }
+        .Phone ,
+        .Tablet ,
+        .Latop{
+            margin: auto;
+            font-size: 100px;
+            color: #ffff;
+            display: none;
+        }
+        @media only screen and (max-width : 739px) {
+            .Phone{
+                display : block;
+            }
+        }
+        @media only screen and (min-width : 740px) and (max-width:1023px){
+            .Tablet{
+                display : block;
+            }
+        }
+        @media only screen and (min-width : 1024px) {
+            .Latop{
+                display : block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 class="Phone">Smartphone</h2>
+    <h2 class="Tablet">Tablet</h2>
+    <h2 class="Latop">Latop</h2>
+</body>
+</html>

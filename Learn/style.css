@@ -1,0 +1,135 @@
+htmt{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+body{
+    background-image: url(https://anhdep123.com/wp-content/uploads/2020/05/h%C3%ACnh-%E1%BA%A3nh-phong-c%E1%BA%A3nh-%C4%91%E1%BA%B9p.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    margin: 3.5rem;
+}
+@-webkit-keyframes my {
+    0% { color: blue; }
+    50% { color: antiquewhite; }
+    100% { color: blue; }
+}
+@-moz-keyframes my {
+    0% { color: blue; }
+    50% { color: antiquewhite; }
+    100% { color: blue; }
+}
+@-o-keyframes my {
+    0% { color: blue; }
+    50% { color: antiquewhite; }
+    100% { color: blue; }
+}
+@keyframes my {
+    0% { color: blue; }
+    50% { color: antiquewhite; }
+    100% { color: blue; }
+}
+.Form{
+    width: 45rem;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    -webkit-animation: my 2000ms infinite;
+    -moz-animation: my 2000ms infinite;
+    -o-animation: my 2000ms infinite;
+    animation: my 2800ms infinite;
+}
+.Main{
+    background-color:rgb(0,0,0,0.5) ;
+    width: 45rem;
+    height: 31.5rem;
+    margin: auto;
+    color: #FFFFFF;
+}
+#Name{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#name{
+    margin-left: 3rem;
+}
+#Pass{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#pass{
+    margin-left: 3.2rem;
+}
+#Date{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#date{
+    margin-left: 3.1rem;
+}
+#GT{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#gt{
+    margin-left: 3.6rem;
+}
+#Like{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#like{
+    margin-left: 13rem;
+}
+#QQ{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#qq{
+    margin-left: 3rem;
+}
+#IMG{
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+#img{
+    margin-left: 2.6rem;
+    cursor: progress;
+}
+#Sub{
+    margin-left: 37rem;
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    border : 0.25rem solid cornflowerblue;
+    border-radius: 12px;
+}
+@-moz-keyframes tt {
+    0% { color: violet; }
+    50% { color: antiquewhite; }
+    100% { color: violet; }
+}
+@-o-keyframes tt {
+    0% { color: violet; }
+    50% { color: antiquewhite; }
+    100% { color: violet; }
+}
+@keyframes tt {
+    0% { color: violet; }
+    50% { color: antiquewhite; }
+    100% { color: violet; }
+}
+#tt{
+    font-size: 1.1rem; 
+    color :#FFFFFF;  
+    margin-left: 37rem;
+    -webkit-animation: tt 2000ms infinite;
+    -moz-animation: tt 2000ms infinite;
+    -o-animation: tt 2000ms infinite;
+    animation: tt 2800ms infinite;
+}
+
