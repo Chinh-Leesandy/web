@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petsla</title>
+    <link rel="stylesheet" href="petsla.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="app" style="background-color: rgb(246, 249, 252); color : black">
+        <div class="main">
+            <div class="higher-top-nav" style="background-color: rgb(255, 255, 255); border-bottom-color: rgba(0, 0, 0, 0.2);">
+                <div class="container">
+                    <div class="higher-top-nav-wrap">
+                        <div class="info-wrap">
+                            <div class="info-item">
+                                <i class="bi bi-envelope"></i>
+                                <div class="text">petsla.vn@gmail.com</div>
+                            </div>
+                            <div class="info-item-divider" style="background-color: rgba(0, 0, 0, 0.2);"></div>
+                            <div class="info-item">
+                                <i class="bi bi-telephone"></i>
+                                <div class="text">0123 456 789</div>
+                            </div>
+                        </div>
+                        <div class="higher-top-nav__branch">
+                            <a href="" style="color: black; text-decoration: none;">
+                                <img src="https://www.leoasher.dev/static/media/logofull.f2aa3784.png" style="width:100%">
+                            </a>
+                        </div>
+                        <div class="btn-wrap">
+                            <div class="higher-top-nav-item__language">
+                                <div class="language" style="background-image: url(/Ảnh/language.png);"></div>
+                                <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Toggle theme</div>
+                            </div>
+                            <div class="higher-top-nav__theme">
+                                <i class="bi bi-moon"></i>
+                                <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Toggle theme</div>
+                            </div>
+                            <div class="auth-btn__wrap">
+                                <i class="bi bi-box-arrow-left"></i>
+                                <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Login</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-nav" style="background-color: rgb(255, 255, 255);">
+                <div class="top-nav-container container">
+                    <div class="top-nav__branch">
+                        <a href="petsla.html" style="color: black;text-decoration: none;">
+                            <img src="https://www.leoasher.dev/static/media/logofull.f2aa3784.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-wrap">
+                        <form>
+                            <div class="d-flex">
+                                <input type="text" name="search" placeholder="Everything here is better than your ex" class="input-search from-control" value style="background-color: rgb(246, 249, 252); color:black">
+                                <button type="submit" class="search-btn custom-btn bg-fill btn btn-primary">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="top-nav-btn-wrap">
+                        <div class="top-nav__cart" id="icon-cart">
+                            <i class="bi bi-cart3"></i>
+                            <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Cart</div>
+                            <span style="border: 2px solid rgb(255, 255, 255);" id="amount">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-top-nav" style="background-color: rgb(255, 255, 255);box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;">
+                <div class="container">
+                    <ul class="top-nav__list">
+                        <li class="top-nav-item">
+                            <a href="" style="color: black; text-decoration: none;">Home</a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="color: rgb(230, 150, 70); text-decoration: none;"><span> Shop </span></a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="color: black; text-decoration: none;"> Cart </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="color: black; text-decoration: none;"> Contact </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="color: black; text-decoration: none;"> Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page">
+                <div class="container">
+                    <div class="product-list">
+                        <div class="wide row">
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p8.jpg" alt="" style="width: 100%;">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Đèn cảm ứng silicon chim cánh cụt Pororo</span>
+                                            </a>
+                                            <div class="price">360.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p1.jpg" alt="" style="width: 100%;">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Chú mèo Amuse Cat may mắn</span>
+                                            </a>
+                                            <div class="price">350.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p7.webp" alt="" style="width: 100%;">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Gối Ôm Mèo MelyCat to và dài</span>
+                                            </a>
+                                            <div class="price">480.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p11.jpg" alt="" style="width: 100%">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Máy phun sương Misty Cat</span>
+                                            </a>
+                                            <div class="price">350.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p6.jpg" alt="" style="width: 100%;">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Gấu bông mèo Konero</span>
+                                            </a>
+                                            <div class="price">280.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p4.jpg" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Chú Mèo Vui Vẻ</span>
+                                            </a>
+                                            <div class="price">200.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p5.webp" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Combo gối cổ và bịt mắt Lucky Cat</span>
+                                            </a>
+                                            <div class="price">240.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p9.jpg" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Máy phun sương du thuyền Captain Cookie Cat</span>
+                                            </a>
+                                            <div class="price">240.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p10.jpg" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Máy phun sương Space Cat</span>
+                                            </a>
+                                            <div class="price">320.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p12.jpg" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Quạt điều hoà Fancy Cat</span>
+                                            </a>
+                                            <div class="price">350.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p15.jpg" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Những Chiếc Măng Cụt Ôm Góc Bàn</span>
+                                            </a>
+                                            <div class="price">35.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <a href="">
+                                        <div class="avt">
+                                            <img id="img-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p23.jpg" style="width: 100%;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-content">
+                                        <div class="text-product-content">
+                                            <a href="">
+                                                <span class="title">Mèo gốm Akita</span>
+                                            </a>
+                                            <div class="price">350.000</div>
+                                        </div>
+                                        <div class="btn-product-content">
+                                            <div class="buy button-wrap">
+                                                <i class="bi bi-bag" id="icon-buy"></i>&nbsp;
+                                                <span>Buy now</span>
+                                            </div>
+                                            <div class="car button-wrap">
+                                                <i class="bi bi-cart3"></i>&nbsp;
+                                                <span class="text-cart">Add to Cart</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Cart" id="show-cart" role="menu" aria-modal="true" tabindex="-1" style="background-color: rgb(255, 255, 255); color: black; visibility : visible;">
+        <div class="top-cart-header">
+            <div class="top-cart-title">Cart: <span id="amount-cart">1</span> Items</div>
+            <button type="button" aria-label="Close" class="btn-close"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="cart-body">
+            <!-- <div class="product-cart">
+                <img src="https://www.leoasher.dev/static/media/sadCat.2335333f.png" style="width: 50%;">
+                <h3 style="color: rgb(135, 135, 212) ;">There's no item in cart!</h3>
+            </div> -->
+            <div class="top-cart-item">
+                <div class="quantity-wrap">
+                    <button class="quantity-btn">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <span class="quantity">1</span>
+                    <button disabled="" class="quantity-btn disabled">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                </div>
+                <div class="product-info">
+                    <div class="product-img">
+                        <img id="img-cart-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p1.jpg" alt="">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-name">Chú mèo Amuse Cat may mắn</div>
+                        <div class="product-price">350,000đ x 1</div>
+                        <div class="product-total-price" style="color: #e69646;">350,000đ</div>
+                    </div>
+                </div>
+                <div class="action-wrap">
+                    <button type="button" class="btn-close" aria-label="Remove From Cart" style="margin-left: 1rem; margin-right: 0.5rem;">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <button type="button" class="check-out">Checkout (<span id="amount-check">350.000</span>đ)</button>
+            <button type="button" class="view-cart">View Cart</button>
+        </div>
+    </div>
+    <div class="Thong-bao">
+        <div class="thong-bao-success">
+            <i class="bi bi-check-circle" style="background-color: green;border-radius: 1.25rem; font-size: 1.5rem; color: #111;"></i>
+            &nbsp;
+            <span style="font-size: 1.2rem;">Add to cart successfully!</span>
+            <button id="close-thong-bao" style="background-color: #fff; border : 0px; font-size: 1rem;">
+                <i class="bi bi-x" style="top: 0;"></i>
+            </button>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
