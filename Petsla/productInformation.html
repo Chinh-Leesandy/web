@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Information</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="responsivecart.css">
+</head>
+<body>
+    <div class="app" style="background-color: rgb(246, 249, 252); color : black">
+        <div class="main">
+            <div class="higher-top-nav" style="background-color: rgb(255, 255, 255); border-bottom-color: rgba(0, 0, 0, 0.2);">
+                <div class="container">
+                    <div class="higher-top-nav-wrap">
+                        <div class="info-wrap">
+                            <div class="info-item">
+                                <i class="bi bi-envelope"></i>
+                                <div class="text">petsla.vn@gmail.com</div>
+                            </div>
+                            <div class="info-item-divider" style="background-color: rgba(0, 0, 0, 0.2);"></div>
+                            <div class="info-item">
+                                <i class="bi bi-telephone"></i>
+                                <div class="text">0123 456 789</div>
+                            </div>
+                        </div>
+                        <div class="higher-top-nav__branch">
+                            <a href="" style="color: black; text-decoration: none;">
+                                <img src="https://www.leoasher.dev/static/media/logofull.f2aa3784.png" style="width:100%">
+                            </a>
+                        </div>
+                        <div class="btn-wrap">
+                            <div class="higher-top-nav-item__language">
+                                <div class="language" style="background-image: url(/Ảnh/language.png);"></div>
+                                <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Toggle theme</div>
+                            </div>
+                            <div class="higher-top-nav__theme">
+                                <i class="bi bi-moon"></i>
+                                <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Toggle theme</div>
+                            </div>
+                            <div class="auth-btn__wrap">
+                                <i class="bi bi-box-arrow-left"></i>
+                                <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Login</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-nav" style="background-color: rgb(255, 255, 255);">
+                <div class="top-nav-container container">
+                    <div class="top-nav__branch">
+                        <a href="petsla.html" style="color: black;text-decoration: none;">
+                            <img src="https://www.leoasher.dev/static/media/logofull.f2aa3784.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-wrap">
+                        <form>
+                            <div class="d-flex">
+                                <input type="text" name="search" placeholder="Everything here is better than your ex" class="input-search from-control" value style="background-color: rgb(246, 249, 252); color:black">
+                                <button type="submit" class="search-btn custom-btn bg-fill btn btn-primary">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="top-nav-btn-wrap">
+                        <div class="top-nav__cart" id="icon-cart">
+                            <i class="bi bi-cart3"></i>
+                            <div class="higher-top-nav-item__title" style="background-color: rgb(68, 68, 68); color :rgb(255, 255, 255);">Cart</div>
+                            <span style="border: 2px solid rgb(255, 255, 255);" id="amount">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-top-nav" style="background-color: rgb(255, 255, 255);box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;">
+                <div class="container">
+                    <ul class="top-nav__list">
+                        <li class="top-nav-item">
+                            <a href="" style="text-decoration: none;">Home</a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="color: rgb(230, 150, 70); text-decoration: none;"><span> Shop </span></a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="text-decoration: none;"> Cart </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="text-decoration: none;"> Contact </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a href="" style="text-decoration: none;"> Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page">
+                <div class="container">
+                    <div class="wide row">
+                        <div class="col m-6">
+                            <div class="product-img__wrap">
+                                <img src="	https://petsla-api.herokuapp.com/media/photos/products/p8.jpg" alt="" class="product-img">
+                            </div>
+                        </div>
+                        <div class="col m-6">
+                            <div class="product-infor">
+                                <h2 class="product-title">Đèn cảm ứng silicon chim cánh cụt Pororo</h2>
+                                <div class="product-price"><span>360,000đ</span></div>
+                                <div class="button-wrap">
+                                    <button type="button" class="button-item buy">
+                                        <span class="">Buy Now</span>
+                                    </button>
+                                    <button type="button" class="button-item car">
+                                        <span class="">Add to Cart</span>
+                                    </button>
+                                </div>
+                                <div class="product-desc" style="border-color: rgba(0, 0, 0, 0.2);">
+                                    <h3 class="product-desc-title">Thông tin sản phẩm</h3>
+                                    <div class="detail">Chú chim Cánh Cụt Pororo đáng iu vừa ra mắt tại Meeko. Bên cạnh nhiệm vụ làm "anh hùng bảo vệ giấc ngủ cho bạn, Pororo để trang trí decor góc nào cũng cưng xỉu lun nè. 
+                                    
+                                        Mi gợi ý thêm một ưu điểm nữa của Pororo là làm quà tặng, rất tuyệt vời lun nha.
+                                    
+                                        - Kích thước: 118x110x132mm.
+                                    
+                                        - Chất liệu: Silicone mềm mại, kết cấu đàn hồi, không bị biến dạng, hạn chế bám bẩn, an toàn với sức khỏe và môi trường.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Cart" id="show-cart" role="menu" aria-modal="true" tabindex="-1" style="background-color: rgb(255, 255, 255); color: black; visibility : visible;">
+        <div class="top-cart-header">
+            <div class="top-cart-title">Cart: <span id="amount-cart">0</span> Items</div>
+            <button type="button" aria-label="Close" class="btn-close"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="cart-body">
+            <div class="product-cart">
+                <img src="https://www.leoasher.dev/static/media/sadCat.2335333f.png" style="width: 50%;">
+                <h3 style="color: rgb(135, 135, 212) ;">There's no item in cart!</h3>
+            </div>
+            <!-- <div class="top-cart-item">
+                <div class="quantity-wrap">
+                    <button class="quantity-btn">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <span class="quantity">1</span>
+                    <button disabled="" class="quantity-btn disabled">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                </div>
+                <div class="product-info">
+                    <div class="product-img">
+                        <img id="img-cart-avt" src="https://petsla-api.herokuapp.com/media/photos/products/p1.jpg" alt="">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-name">Chú mèo Amuse Cat may mắn</div>
+                        <div class="product-price">350,000đ x 1</div>
+                        <div class="product-total-price" style="color: #e69646;">350,000đ</div>
+                    </div>
+                </div>
+                <div class="action-wrap">
+                    <button type="button" class="btn-close" aria-label="Remove From Cart" style="margin-left: 1rem; margin-right: 0.5rem;">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+        <div class="cart-footer">
+            <button type="button" class="check-out">Checkout (<span id="amount-check">0</span>đ)</button>
+            <button type="button" class="view-cart">View Cart</button>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+    <script src="callAPIproduct.js"></script>
+</body>
+</html>
